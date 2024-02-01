@@ -1,0 +1,7 @@
+Hark, code diver! RiotScopez here!
+
+This file is here for the sake of modularisation untill I can get Custom Robot sprites to work.
+
+I do not clame any of these sprites except "shara" and it's associated sprites.
+
+See ya!
