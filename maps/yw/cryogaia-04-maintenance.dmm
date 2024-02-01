@@ -11189,6 +11189,15 @@
 /obj/effect/floor_decal/spline/plain,
 /turf/simulated/floor/tiled,
 /area/crew_quarters/fitness)
+"gLa" = (
+/obj/structure/table/steel,
+/obj/item/weapon/spacecash/c1,
+/obj/item/weapon/glass_extra/straw{
+	pixel_y = 5
+	},
+/obj/effect/decal/cleanable/flour,
+/turf/simulated/floor,
+/area/maintenance/starboard)
 "gLg" = (
 /obj/machinery/door/airlock/glass{
 	name = "Cryogenic Storage"
@@ -43269,15 +43278,6 @@
 /obj/structure/disposalpipe/segment,
 /turf/simulated/floor/tiled,
 /area/hallway/lower/aft)
-"ymn" = (
-/obj/structure/table/steel,
-/obj/item/weapon/spacecash/c1,
-/obj/item/weapon/glass_extra/straw{
-	pixel_y = 5
-	},
-/obj/effect/decal/cleanable/flour,
-/turf/simulated/floor,
-/area/maintenance/starboard)
 
 (1,1,1) = {"
 qDW
@@ -63244,7 +63244,7 @@ eNq
 qjE
 wso
 eBi
-ymn
+gLa
 kpQ
 eNq
 sXZ
