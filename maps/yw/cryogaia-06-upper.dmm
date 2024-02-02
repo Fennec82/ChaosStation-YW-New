@@ -407,6 +407,9 @@
 	dir = 10
 	},
 /obj/structure/table/rack/shelf/steel,
+/obj/item/weapon/gun/energy/kinetic_accelerator,
+/obj/item/weapon/gun/energy/kinetic_accelerator,
+/obj/item/weapon/gun/energy/kinetic_accelerator,
 /turf/simulated/floor/tiled,
 /area/quartermaster/miningdock)
 "bc" = (
@@ -831,7 +834,11 @@
 /obj/machinery/light/small{
 	dir = 4
 	},
-/obj/structure/cable/yellow,
+/obj/structure/cable/yellow{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
 /turf/simulated/floor/plating/snow/plating,
 /area/maintenance/auxsolarport)
 "bZ" = (
@@ -3716,6 +3723,9 @@
 	dir = 4
 	},
 /obj/structure/table/rack/shelf/steel,
+/obj/item/weapon/kinetic_crusher/machete,
+/obj/item/weapon/kinetic_crusher/machete,
+/obj/item/weapon/kinetic_crusher/machete,
 /turf/simulated/floor/tiled,
 /area/quartermaster/miningdock)
 "iq" = (
@@ -6567,7 +6577,9 @@
 "oq" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/cable/yellow{
-	icon_state = "0-8"
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
 	},
 /turf/simulated/floor/plating/snow/plating,
 /area/maintenance/auxsolarport)
@@ -7296,6 +7308,11 @@
 "ry" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/space_heater,
+/obj/structure/cable/yellow{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
 /turf/simulated/floor/plating/snow/plating,
 /area/maintenance/auxsolarport)
 "rA" = (
@@ -8991,6 +9008,10 @@
 	},
 /obj/machinery/light{
 	dir = 8
+	},
+/obj/structure/dogbed,
+/mob/living/simple_mob/vore/aggressive/corrupthound/river{
+	size_multiplier = 1.7
 	},
 /turf/simulated/floor/tiled,
 /area/cryogaia/station/explorer_meeting)
@@ -13925,6 +13946,9 @@
 	},
 /obj/structure/table/rack/shelf/steel,
 /obj/machinery/light,
+/obj/item/weapon/kinetic_crusher,
+/obj/item/weapon/kinetic_crusher,
+/obj/item/weapon/kinetic_crusher,
 /turf/simulated/floor/tiled,
 /area/quartermaster/miningdock)
 "ZT" = (
@@ -28482,7 +28506,7 @@ bu
 qa
 ee
 bY
-fb
+Ap
 ry
 qZ
 xN
